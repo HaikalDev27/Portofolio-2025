@@ -1,0 +1,59 @@
+:root{
+    --programmer-text: #6d77ff;
+    --base-text: #e6eef8;
+}
+
+.responsive-wrapper{
+    display: block;
+}
+
+.Header{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation: animateText 5s ease-in-out infinite;
+}
+
+.Title{
+    font-size: 50px;
+    margin-bottom: -15px;
+}
+
+.Subheader{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+    color: var(--base-text);
+    text-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+.ContactButton{
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    background: linear-gradient(90deg, var(--accent), #4f46e5 60%);
+    color: white;
+    box-shadow: 0 13px 23px rgba(92, 50, 255, 0.7);
+    font-weight: 600;
+    border-radius: 15px;
+    transition: background-color 0.3s ease; 
+}
+
+.ContactButton:hover{
+    background-color: darken(var(--programmer-text), 10%);
+}
+
+@keyframes animateText{
+    0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
+        color: var(--programmer-text);
+        text-shadow: none;
+    }
+    18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: var(--base-text);
+        text-shadow: 0 0 10px var(--programmer-text),
+        0 0 20px var(--programmer-text),
+        0 0 40px var(--programmer-text),
+        0 0 80px var(--programmer-text),
+        0 0 160px var(--programmer-text);
+    }
+}
