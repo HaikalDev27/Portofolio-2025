@@ -1,0 +1,62 @@
+.AboutWrapper {
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    background: #7656ce;
+}
+
+.AboutContainer{
+    color: azure;
+    height: 70vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.AboutImageContainer{
+    margin-left: 15%;
+}
+
+.AboutImageContainer img {
+    top: -25%;
+    position: absolute;
+    z-index: 10;
+    width: 500px;
+    object-fit: cover;
+    filter: blur(2px);
+    opacity: 0.7;
+}
+
+.AboutOverlay{
+    color: azure;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -7%;
+    width: 550px;
+    height: 100%;
+    position: absolute;
+    z-index: 5;
+}
+
+.AboutImageContainer .AboutMarquee{
+    rotate: 5deg;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.AboutContent {
+    margin-left: 30%;
+    padding: 20px;
+    width: 40%;
+}
+
+.AboutTitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.AboutSubheader {
+    font-size: 16px;
+    color: azure;
+}
+

@@ -8,7 +8,7 @@
 }
 
 .Header{
-    font-size: 14px;
+    font-size: 24px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: animateText 5s ease-in-out infinite;
@@ -36,11 +36,12 @@
     box-shadow: 0 13px 23px rgba(92, 50, 255, 0.7);
     font-weight: 600;
     border-radius: 15px;
-    transition: background-color 0.3s ease; 
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .ContactButton:hover{
     background-color: darken(var(--programmer-text), 10%);
+    transform: translateY(-2px);
 }
 
 @keyframes animateText{
