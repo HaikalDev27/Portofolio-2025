@@ -8,22 +8,22 @@ export default function App() {
     <div className="AboutWrapper">
         <div className="AboutContainer">
             <div className="AboutImageContainer">
-                <img src={image_path} alt="About Me" />
                 <div className="AboutOverlay">
                     <Marquee className='AboutMarquee' gradientColor={'#7656ce'} gradient={true} gradientWidth={50} speed={50}>
-                    <h1>Director Director Director</h1>
+                    <h1>Director Director Director Director Director Director Director Director Director Director Director Director Director Director</h1>
                     </Marquee>
                     <br />
                     <br />
                     <Marquee direction='right' className='AboutMarquee' gradientColor={'#7656ce'} gradient={true} gradientWidth={50} speed={50}>
-                    <h1>Programmer Programmer Programmer</h1>
+                    <h1>Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer Programmer</h1>
                     </Marquee>
                     <br />
                     <br />
                     <Marquee className='AboutMarquee' gradientColor={'#7656ce'} gradient={true} gradientWidth={50} speed={50}>
-                    <h1>Developer Developer Developer</h1>
+                    <h1>Developer Developer Developer Developer Developer Developer Developer Developer Developer Developer Developer Developer Developer Developer</h1>
                     </Marquee>
                 </div>
+                <img src={image_path} alt="About Me" />
             </div>
             <div className="AboutContent">
                 <span className="AboutTitle">About Me</span>

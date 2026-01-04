@@ -1,7 +1,7 @@
 .AboutWrapper {
     box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    background: #7656ce;
+    background: radial-gradient(circle, rgb(135, 120, 218) 0%, rgba(118, 86, 206, 1) 100%);
 }
 
 .AboutContainer{
@@ -17,12 +17,11 @@
 }
 
 .AboutImageContainer img {
-    top: -25%;
+    top: -37%;
     position: absolute;
     z-index: 10;
-    width: 500px;
+    width: 550px;
     object-fit: cover;
-    filter: blur(2px);
     opacity: 0.7;
 }
 
@@ -30,14 +29,18 @@
     color: azure;
     font-weight: lighter;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-top: -7%;
-    width: 550px;
+    margin-top: -10%;
+    margin-left: -10%;
+    width: 90%;
     height: 100%;
     position: absolute;
-    z-index: 5;
+    z-index: 0;
+    filter: blur(4px);
+    opacity: 0.2;
 }
 
 .AboutImageContainer .AboutMarquee{
+    font-size: 1.5em;
     rotate: 5deg;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -46,6 +49,7 @@
     margin-left: 30%;
     padding: 20px;
     width: 40%;
+    z-index: 1;
 }
 
 .AboutTitle {
