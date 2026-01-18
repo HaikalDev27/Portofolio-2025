@@ -5,6 +5,8 @@ import Main from '@/components/main/App';
 import NavBar from '@/components/nav/App';
 import About from '@/components/about/App';
 import Projects from '@/components/project/App';
+import Skills from '@/components/skills/App';
+import Contact from '@/components/contact/App';
 
 export default function Home() {
   return (
@@ -28,6 +30,14 @@ export default function Home() {
 
       <section id='projects'>
         <Projects />
+      </section>
+
+      <section id='skills' style={{ marginTop: '-10%' }}>
+        <Skills />
+      </section>
+
+      <section id='contact' style={{ margin: '10%' }}>
+        <Contact />
       </section>
     </>
   );
